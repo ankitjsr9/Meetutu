@@ -1,0 +1,100 @@
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [0, 0]
+},
+properties: {
+title: 'Mapbox',
+description: 'Washington, D.C.'
+}
+}
+,{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.224621, 22.831929]
+},
+properties: {
+title: 'babu Rao',
+description: 'Hack',
+email_id: 'babu@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.21041166040845, 22.80734100340982]
+},
+properties: {
+title: 'Ajitesh Kumar',
+description: 'Html',
+email_id: 'ajitesh@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.313119, 22.096072]
+},
+properties: {
+title: 'babu Rao',
+description: 'Hack',
+email_id: 'babu@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2515713, 22.782909]
+},
+properties: {
+title: 'Harpreet  Singh',
+description: 'Python',
+email_id: 'harpreet@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2028436036533, 22.8076639817242]
+},
+properties: {
+title: 'Prabhat Kumar',
+description: 'SQL',
+email_id: 'prabhat@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.12461539, 22.832023]
+},
+properties: {
+title: 'Priyanshu Prasad',
+description: 'Game Maker Language(Scripting language)',
+email_id: 'Priyanshu@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2246159999, 22.8395123]
+},
+properties: {
+title: 'Saurav Mahato',
+description: 'SQL',
+email_id: 'saurav@gmail.com'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2199666170709, 22.82154887384]
+},
+properties: {
+title: 'Subhodip kar',
+description: 'SQL',
+email_id: 'subhpdip@gmail.com'
+}
+}

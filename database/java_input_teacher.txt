@@ -1,0 +1,131 @@
+﻿{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [0, 0]
+},
+properties: {
+title: 'Mapbox',
+description: 'Washington, D.C.'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2246091, 22.8319981]
+},
+properties: {
+title: 'Ankit Kumar',
+description: 'Karel',
+email_id: 'ankitjsr9@gmail.com',
+expe: '10'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.20282916211931, 22.806232803723]
+},
+properties: {
+title: 'Ahmad Raza khan',
+description: 'JavaFX Script',
+email_id: 'ahmad@gmail.com',
+expe: '4'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.312395, 25.0960742]
+},
+properties: {
+title: 'Aman Rajak',
+description: 'SQL',
+email_id: 'aman@gmail.com',
+expe: '3'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.227495431890, 22.83684793977727]
+},
+properties: {
+title: 'Neeraj Kumar',
+description: 'Machine code',
+email_id: 'neeraj@gmail.com',
+expe: '2'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.254856, 22.837845]
+},
+properties: {
+title: 'Rakesh Mahato',
+description: 'PHP',
+email_id: 'rakesh@gmail.com',
+expe: '3'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2261718, 22.8399444]
+},
+properties: {
+title: 'Ritik Dubey',
+description: 'Python',
+email_id: 'ritik@gmail.com',
+expe: '3'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.2259050740, 22.822206781]
+},
+properties: {
+title: 'Sandeep Kumar',
+description: 'Groovy',
+email_id: 'sandeep@gmail.com',
+expe: '2'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.21762934731964, 22.81173344288]
+},
+properties: {
+title: 'Siddharth Patro',
+description: 'C++ (C plus plus) – ISO/IEC 14882',
+email_id: 'siddharth@gmail.com',
+expe: '2'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.211960999999, 22.83208849210]
+},
+properties: {
+title: 'Subham  Patel',
+description: 'Java',
+email_id: 'subham@gmail.com',
+expe: '1'
+}
+},{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [86.22461299999999, 22.832021899999997]
+},
+properties: {
+title: 'aa aaa',
+description: 'Klerer-May System',
+email_id: 'qw@gmail.com',
+expe: '10'
+}
+}

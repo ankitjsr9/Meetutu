@@ -1,0 +1,368 @@
+/*--------ALL PAGES--------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+
+/*--------BACKGROUND IMAGE--------*/
+.back {
+    position: relative;
+    padding: 60px 0 60px 0;
+    min-height: 800px;
+    background: rgb(40, 70, 102) url('../img/background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.babu{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+
+
+/*--------SLIDE SHOW ON INDEX PAGE--------*/
+.area-slide-show{
+    width:70%;
+    height:100%;
+    position: relative;
+    margin-left: 5px;
+    background: #fff;
+    /*    padding:5px;*/
+    overflow: auto;
+}
+
+/*--------NEWS AND REPORT--------*/
+
+/*
+.arenews{
+width:350px;
+height:400px;
+position: absolute;margin-left: 950px;
+margin-right: 5px;background: white;color: black;
+padding:5px;overflow-y: auto;border:2px solid #444;
+}
+.arenews:hover{
+    border-color:red;
+}
+*/
+
+
+
+
+.mySlides {display: none;
+    background: #fff;}
+div img {vertical-align: middle;}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+
+/*--------SIGN UP PAGE BACKKDROUND*/
+
+.hero-sign-up{
+    height: 900px;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/signup_background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+/*--------SIGN IN PAGE BACKGROUND--------*/ 
+.hero-sign-in{
+    height: 900px;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/signin_background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+/*--------FORM BOX SIGN IN PAGE--------*/
+.form-box-sign-in{
+    width:380px;
+    height:350px;
+    position: relative;
+    margin: 1px auto;
+    background: #fff;
+    padding:5px;
+    overflow: hidden;
+}
+
+/*--------FORM BOX SIGN UP PAGE--------*/
+.form-box-sign-up{
+    width:380px;
+    height: 590px;
+    position: relative;
+    margin: 1px auto;
+    background: #fff;
+    padding:5px;
+    overflow: hidden;
+}
+
+/*--------TAB BOX--------*/
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+/*--------TOGGLE BUTTON--------*/
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+/*--------TOGGLE BUTTON--------*/
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 110px;
+    height:100%	;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/*--------GOOGLE ICON--------*/
+.social-icons{
+    margin: 30px auto;
+    text-align:center;
+}
+
+/*--------GOOGLE ICON IMAGE--------*/
+.social-icons img{
+    width: 30px;
+}
+
+/*--------INPUT SECTION--------*/
+.input-group{
+    top:180px;
+    width: 280px;
+    position: absolute;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+/*--------SUBMIT BUTTONS--------*/
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+/*--------CHECK BOX--------*/
+.check-box{
+    margin: 30px 10px  30px 0;
+}
+span{
+
+    color:#777;
+    font-size: 12px;
+    bottom:38px;
+    position: absolute;
+}
+#spa_sign_up{
+    color:#777;
+    font-size: 12px;
+    top:385px;
+    position: absolute;
+    margin:auto;	
+}
+#spa_sign_in{
+    color:#777;
+    font-size: 12px;
+    top:150px;
+    position: absolute;
+    margin:auto;	
+}
+
+
+#teacher{
+    left:50px;
+}
+#learner{
+    left:450px;
+}
+
+
+
+.active {
+    background-color: #717171;
+}
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 200;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+.autocomplete-items div {
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.navbar button.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.activate {
+    background-color: #666;
+    color: white;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+
+
+.search-button{
+    position:  relative;
+    width:900px;
+    height:50px;
+    font-family: quicksand;
+    font-size: 40px;
+    margin: 20px auto;
+    display: block;
+}
+.search-button:hover{
+    color:white;
+    background:#009B77;
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
